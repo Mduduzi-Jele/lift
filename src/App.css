@@ -1,0 +1,142 @@
+.selected {
+    border: solid 3px white;
+}
+
+@font-face {
+    font-family: 'Itim-regular';
+    src: url(./fonts/Itim-Regular.ttf);
+}
+.main {
+    background-color: #151515;
+}
+.logo {
+    background-color: white;
+    border-radius: 50%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav {
+    display: inline;
+}
+
+.action {
+    float: right;
+    height: 25px;
+    width: 100px;
+    background-color: #FFFFFF;
+    border-radius:6px;
+    font-family: 'Itim-regular';
+}
+
+.input-area {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-body {
+    margin-bottom: 20px;
+}
+
+.input-button {
+    color: black;
+    width: 200px;
+    height: 35px;
+    background-color: #FFCA43;
+    border-radius:6px;
+    font-family: 'Itim-regular';
+}
+
+.workouts-heading {
+    font-family: 'Itim-regular';
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workouts {
+    margin-top: 1px;
+    background-color: #FFCA43;
+    border-radius:6px;
+    font-family: 'Itim-regular';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workout-details-text{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.exercise {
+    background-color: #FFCA43;
+    font-family: 'Itim-regular';
+    margin: 50px 20px 0px 20px;
+    border-radius: 6px;
+    font-size: smaller;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.action-sec {
+    background-color: #FFFFFF;
+    border-radius:6px;
+    font-family: 'Itim-regular';
+    float: right;
+}
+
+.workout-buttons {
+    margin-top: 30px;
+    background-color: #FFCA43;
+    border-radius:6px;
+    font-family: 'Itim-regular';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px 0 15px 0;
+    font-size: large;
+}
+
+.action-ter {
+    border-radius:6px;
+    font-family: 'Itim-regular';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.selected-exercises {
+    background-color: #FFCA43;
+    font-family: 'Itim-regular';
+    margin: 20px 20px 0px 20px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: smaller;
+}
+
+label {
+    font-family: 'Itim-regular';
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exe_img {
+    border-radius: 6px;
+    height: 100px;
+    width: 100px;
+}
