@@ -67,6 +67,7 @@ export async function getExercises(type) {
     .then((data) => {
       exercises = data;
     });
+    console.log(exercises)
   return exercises;
 }
 
