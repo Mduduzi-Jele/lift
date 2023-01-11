@@ -1,7 +1,7 @@
 export async function login(email, password) {
   let user_id;
   let msg;
-  await fetch("http://localhost:3001/login", {
+  await fetch("https://liftapi.onrender.com/login", {
     method: "POST",
     credentials: "include",
     headers: {
@@ -23,7 +23,7 @@ export async function login(email, password) {
 export async function signup(name, lastname, email, password) {
   let user_id;
   let msg;
-  await fetch("http://localhost:3001/signup", {
+  await fetch("https://liftapi.onrender.com/signup", {
     method: "POST",
     credentials: "include",
     headers: {
@@ -44,7 +44,7 @@ export async function signup(name, lastname, email, password) {
 
 export async function getWorkouts(user_id) {
   let workouts;
-  await fetch(`http://localhost:3001/workouts/${user_id}`, {
+  await fetch(`https://liftapi.onrender.com/workouts/${user_id}`, {
     method: "GET",
     credentials: "include",
   })
@@ -57,7 +57,7 @@ export async function getWorkouts(user_id) {
 
 export async function getExercises(type) {
   let exercises;
-  await fetch(`http://localhost:3001/exercises/${type}`, {
+  await fetch(`https://liftapi.onrender.com/exercises/${type}`, {
     method: "GET",
     credentials: "include",
   })
@@ -72,7 +72,7 @@ export async function getExercises(type) {
 
 export async function getWorkoutExercises(workout_id) {
   let exercises;
-  await fetch(`http://localhost:3001/workout/exercises/${workout_id}`, {
+  await fetch(`https://liftapi.onrender.com/workout/exercises/${workout_id}`, {
     method: "GET",
     credentials: "include",
   })
@@ -85,7 +85,7 @@ export async function getWorkoutExercises(workout_id) {
 
 export async function addWorkout(data) {
   let response;
-  await fetch(`http://localhost:3001/create/workout`, {
+  await fetch(`https://liftapi.onrender.com/create/workout`, {
     method: "POST",
     credentials: "include",
     headers: {

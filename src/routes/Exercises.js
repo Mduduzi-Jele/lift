@@ -52,7 +52,7 @@ const Exercises = () => {
                   }}
                 >
                   <p>{exercise.name}</p>
-                  <img className="exe_img" src={`http://localhost:3001/image/${exercise.name}`} alt=""></img>
+                  <img className="exe_img" src={`https://liftapi.onrender.com/image/${exercise.name}`} alt=""></img>
                 </div>
               ))
             ) : (
