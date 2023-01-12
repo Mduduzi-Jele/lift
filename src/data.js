@@ -11,6 +11,7 @@ export async function login(email, password) {
   })
     .then((res) => res.json())
     .then((data) => {
+      console.log(data.token)
       if(data.id && data.auth){
         user_id = data.id;
       } else {
